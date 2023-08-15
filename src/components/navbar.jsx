@@ -23,7 +23,7 @@ const Navbar = () => {
         <div
           className="menu"
           onClick={() => {
-            useToggle(!toggle)
+            useToggle(!toggle);
           }}
         >
           <AiOutlineMenu />
@@ -35,9 +35,12 @@ const Navbar = () => {
             </div>
           ))}
         </div>
-        <div className={`module ${toggle ? "show" : ""}`} onClick={
-            ()=>{useToggle(!toggle)}
-        }></div>
+        <div
+          className={`module ${toggle ? "show" : ""}`}
+          onClick={() => {
+            useToggle(!toggle);
+          }}
+        ></div>
       </div>
     </div>
   );
