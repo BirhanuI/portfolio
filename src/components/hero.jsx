@@ -9,7 +9,7 @@ const Hero = () => {
           <div className="bg-white"></div>
           <img src={ProfilePic} alt="Profile picture" />
         </div>
-        <div className="name">Hi, I'm Berhanu Negash</div>
+        <div className="name">Hi, I'm Birhanu Negash</div>
         <div className="work-type">Fullstack Web Developer</div>
         <div className="simple-bio">
           "Welcome to my personal portfolio! My name is <b>Birhanu Negash</b> and I am a 

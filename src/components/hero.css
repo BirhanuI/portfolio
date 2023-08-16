@@ -9,19 +9,24 @@
 .image img {
   position: absolute;
   top: 0;
-  width: 300px;
+  min-width: 200px;
+  max-width: 300px;
+  width: 28vw;
   border-radius: 50%;
   box-shadow: 5px 10px 50px;
 }
 .image .bg-black {
   width: 100vw;
-  height: 150px;
+  height: 14vw;
   background-color: #242424;
-  
+  min-height: 100px;
+  max-height: 150px;
 }
 .image .bg-white {
   width: 100vw;
-  height: 150px;
+  min-height: 100px;
+  max-height: 150px;
+  height: 14vw;
   background-color: white;
 }
 .bio-container{
@@ -30,7 +35,6 @@
     align-items: center;
     color: #242424;
     background-color: white;
-    height: 100vh;
 }
 .name{
     margin-top: 25px;
@@ -38,12 +42,12 @@
     font-weight: 700;
 }
 .work-type{
-    font-size: 3rem;
+    font-size: clamp(2rem,4vw,3.5rem);
     font-weight: 900;
     text-shadow: 0px 24px 9px rgba(0, 0, 0,0.6);
 }
 .simple-bio{
-    width: 60%;
+    width: 70%;
     margin-top: 20px;
     font-weight: 400;
     font-size: 1.2rem;

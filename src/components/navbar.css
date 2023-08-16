@@ -3,14 +3,16 @@
   justify-content: space-between;
 }
 .nav img {
-  height: 60px;
+  min-height: 40px;
+  max-height: 70px;
+  height: 5vw;
   margin: 5px;
   cursor: pointer;
 }
 .nav ul {
   display: flex;
   justify-content: space-around;
-  font-size: 1.5rem;
+  font-size: clamp(1rem,2vw,2rem);
   list-style: none;
   margin: 20px;
 }
