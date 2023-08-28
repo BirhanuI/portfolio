@@ -1,5 +1,6 @@
 import Hero from "./components/hero";
 import Navbar from "./components/navbar";
+import Skill from "./components/skill";
 function App() {
   return (
     <>
@@ -9,6 +10,9 @@ function App() {
         </div>
         <div className="hero">
           <Hero />
+        </div>
+        <div className="skills">
+          <Skill />
         </div>
       </div>
     </>

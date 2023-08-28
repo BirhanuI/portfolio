@@ -15,10 +15,7 @@ const Hero = () => {
           "Welcome to my personal portfolio! My name is <b>Birhanu Negash</b> and I am a 
           <b> Junior Fullstack Web Developer</b>. In this portfolio, you will find a
           collection of my work and projects that showcase my skills,
-          experience, and passion for <b>Web Development</b>. Starting from
-          <b> Web Design</b>, to Deployment, I
-          am constantly striving to improve and expand my knowledge in the
-          industry. Thank you for taking the time to view my portfolio, and I
+          experience, and passion for <b>Web Development</b>. Thank you for taking the time to view my portfolio, and I
           look forward to connecting with you."
         </div>
       </div>
